@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>审批列表</title>
+	<link rel="stylesheet" type="text/css" href="../plugins/mui/mui.css" />
+	<link rel="stylesheet" type="text/css" href="../plugins/font-awesome/font-awesome.css" />
+	<link rel="stylesheet/less" type="text/css" href="../style/style.less" />
+	<script src="../js/less.min.js"></script>
+</head>
+
+<body class="easy-credit">
+	<div class="manage-list">
+		<div class="tabbar mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			<a class="mui-control-item mui-active" href="#tab-first">待审批</a>
+			<a class="mui-control-item" href="#tab-second">已完成</a>
+		</div>
+		<div id="tab-first" class="mui-control-content mui-active">
+			<div class="mui-scroll-wrapper " flag="0" data-target="noReadedMsgTmpl">
+				<div id="" class="mui-scroll">
+					<div class="goods-wrapper">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+									<div class="mui-media-body">
+										<div class="title">预约羽毛球馆
+											<span class="pull-right time">2017/12/12 10:23</span>
+										</div>
+										<div class="item">
+											<span class="item-label">借物人：</span>
+											<span class="item-value">张三(340221199000000000)</span>
+										</div>
+										<div class="item">
+											<span class="item-label">服务编号：</span>
+											<span class="item-value">1234587</span>
+										</div>
+									</div>
+								</a>
+								<div class="manage-op-wrap">
+									<button type="button" class="mui-btn btn-refuse">拒绝审批</button>
+									<button type="button" class="mui-btn btn-agree">通过审批</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tab-second" class="mui-control-content tab-second">
+			<div class="mui-scroll-wrapper " flag="1" data-target="noReadedMsgTmpl">
+				<div id="" class="mui-scroll">
+					<div class="goods-wrapper">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+									<div class="mui-media-body">
+										<div class="title">预约羽毛球馆1
+											<span class="pull-right time">2017/12/12 10:23</span>
+										</div>
+										<div class="item">
+											<span class="item-label">借物人：</span>
+											<span class="item-value">张三(340221199000000000)</span>
+										</div>
+										<div class="item">
+											<span class="item-label">服务编号：</span>
+											<span class="item-value">1234587</span>
+										</div>
+									</div>
+								</a>
+								<div class="manage-op-wrap">
+									<button type="button" class="mui-btn btn-refuse">拒绝审批</button>
+									<button type="button" class="mui-btn btn-agree">通过审批</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	</div>
+	<script src="../plugins/mui/mui.min.js"></script>
+</body>
+
+</html>

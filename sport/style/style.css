@@ -1,0 +1,304 @@
+@charset "utf-8";
+html {
+  height: 100%;
+  font-size: 20px;
+  font-family: "microsoft yahei";
+}
+body {
+  height: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: .7rem;
+  font-family: "microsoft yahei";
+}
+/**/
+.bg-white {
+  background-color: #fff;
+}
+.easy-credit .banner {
+  height: 8rem;
+  background-color: #7A7269;
+}
+.easy-credit .nav {
+  display: flex;
+  width: 13.75rem;
+  margin: -1.5rem auto 0 auto;
+  padding: 0.55rem 0 0.5rem 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  background-color: #fff;
+}
+.easy-credit .nav .nav-item {
+  flex: 1;
+  text-align: center;
+}
+.easy-credit .nav .nav-item > a {
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+}
+.easy-credit .card {
+  position: relative;
+  margin: 1rem 0.5rem;
+  overflow: hidden;
+}
+.easy-credit .card:first-child {
+  margin-top: 1.5rem;
+}
+.easy-credit .card .card-head {
+  position: relative;
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding-left: 0.3rem;
+  border-left: 0.15rem solid #FF7070;
+  font-family: PingFangSC-Regular;
+  align-items: center;
+}
+.easy-credit .card .card-head .title {
+  margin-right: 0.5rem;
+  line-height: 0.8rem;
+  font-size: 0.8rem;
+}
+.easy-credit .card .card-head .addr-wrap {
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+  color: rgba(46, 46, 46, 0.6);
+}
+.easy-credit .card .card-head .addr-wrap .icon-wrap {
+  margin-right: 0.25rem;
+}
+.easy-credit .card .card-head .addr-wrap .addr {
+  color: rgba(46, 46, 46, 0.6);
+}
+.easy-credit .card .card-body {
+  position: relative;
+  background-color: #fff;
+}
+.easy-credit .card .card-body img {
+  width: 100%;
+}
+.easy-credit .card .card-body .tips {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0.45rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  border: 4px solid #EEB238;
+  text-align: center;
+  box-shadow: 0 0rem 0.4rem 0 rgba(76, 49, 5, 0.5), inset 0rem 0rem 0.2rem 0 #DBA012;
+  background-image: radial-gradient(50% 50%, #FFF184 15%, #FFC31B 100%);
+  justify-content: center;
+  color: #fff;
+}
+.easy-credit .card .card-body .tips span {
+  font-size: 1rem;
+}
+.easy-credit .card .card-body .tips span i {
+  font-style: normal;
+}
+.easy-credit .card .card-body .tips p {
+  margin-bottom: 0;
+  color: #fff;
+}
+.easy-credit .card .card-foot {
+  display: flex;
+  padding: 0.75rem 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.easy-credit .card .card-foot .card-foot-btn {
+  padding: 0.1rem 0.15rem;
+  border: 1px solid #FF7070;
+  border-radius: 0.1rem;
+  font-size: 0.6rem;
+}
+.easy-credit .slider-wrap {
+  height: calc(100% - 4.1rem);
+}
+.easy-credit .service-foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.75rem 0.5rem;
+  background-color: #fff;
+}
+.easy-credit .service-foot .mui-btn {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  border: none;
+  background-color: #FF7070;
+  color: #fff;
+}
+.easy-credit .esure-form {
+  font-size: 0.8rem;
+}
+.easy-credit .esure-form .mui-table-view {
+  margin-top: 0.5rem;
+}
+.easy-credit .esure-form .mui-table-view::before {
+  display: none;
+}
+.easy-credit .esure-form .mui-table-view::after {
+  display: none;
+}
+.easy-credit .esure-form .mui-table-view .mui-table-view-cell {
+  padding: 0.6rem 0.75rem;
+}
+.easy-credit .esure-form .mui-table-view .mui-table-view-cell::after {
+  left: 0;
+}
+.easy-credit .esure-form .mui-table-view .mui-table-view-cell .cell-link {
+  display: flex;
+}
+.easy-credit .esure-form .mui-table-view .mui-table-view-cell .cell-link label {
+  width: 7.85rem;
+}
+.easy-credit .esure-form .mui-table-view .mui-table-view-cell .cell-link .text {
+  color: rgba(46, 46, 46, 0.4);
+}
+.easy-credit .esure-form .mui-table-view .mui-table-view-cell .cell-link .date {
+  color: #FF7070;
+}
+.easy-credit .status {
+  margin-top: 2.5rem;
+}
+.easy-credit .status .status-icon {
+  width: 4.25rem;
+  height: 4.25rem;
+  margin: 0 auto;
+}
+.easy-credit .status .status-desc {
+  text-align: center;
+}
+.easy-credit .status .status-desc .msg-text {
+  margin-top: 0.75rem;
+  line-height: 1.25rem;
+  font-size: 0.9rem;
+  color: #3d3d3d;
+}
+.easy-credit .status .status-desc .msg-note {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #666;
+}
+.easy-credit .status .status-btn-wrap {
+  margin: 0 3.4rem;
+}
+.easy-credit .status .status-btn-wrap .mui-btn {
+  margin-bottom: 0;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.25rem;
+}
+.easy-credit .apply-list .mui-table-view {
+  background-color: transparent;
+}
+.easy-credit .apply-list .mui-table-view::before {
+  display: none;
+}
+.easy-credit .apply-list .mui-table-view::after {
+  display: none;
+}
+.easy-credit .apply-list .mui-table-view .mui-media {
+  margin-top: 0.5rem;
+  background-color: #fff;
+}
+.easy-credit .apply-list .mui-table-view .mui-media .mui-media-object {
+  width: 3.4rem;
+  line-height: 3.4rem;
+  max-width: 3.4rem;
+  height: 3.4rem;
+  margin-right: 0.75rem;
+}
+.easy-credit .apply-list .mui-table-view .mui-media .mui-media-body {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.easy-credit .apply-list .mui-table-view .mui-media .mui-media-body .title {
+  font-size: 0.8rem;
+}
+.easy-credit .apply-list .mui-table-view .mui-media .mui-media-body .item {
+  margin-top: 0.5rem;
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+  color: rgba(46, 46, 46, 0.6);
+}
+.easy-credit .apply-list .mui-table-view .mui-media .mui-media-body .item .icon-wrap {
+  margin-right: 0.25rem;
+}
+.easy-credit .apply-list .mui-table-view .mui-media .mui-media-body .mui-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.2rem 1rem;
+  line-height: 0.9rem;
+  border-color: #FF7070;
+  color: #FF7070;
+}
+.easy-credit .manage-list {
+  height: calc(100% - 20px);
+  margin: 10px 0;
+  background-color: #fff;
+}
+.easy-credit .manage-list .mui-control-content {
+  height: calc(100% - 40px);
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view {
+  background-color: transparent;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view::before {
+  display: none;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view::after {
+  display: none;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .mui-media {
+  margin-top: 0.5rem;
+  background-color: #fff;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .mui-media .mui-media-object {
+  width: 3.4rem;
+  line-height: 3.4rem;
+  max-width: 3.4rem;
+  height: 3.4rem;
+  margin-right: 0.75rem;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .mui-media .mui-media-body {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .mui-media .mui-media-body .title {
+  font-size: 0.8rem;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .mui-media .mui-media-body .title .time {
+  font-size: 12px;
+  color: rgba(46, 46, 46, 0.4);
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .mui-media .mui-media-body .item {
+  margin-top: 0.5rem;
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+  color: rgba(46, 46, 46, 0.6);
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .manage-op-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .manage-op-wrap button {
+  border-radius: 4px;
+  width: 167px;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .manage-op-wrap button.btn-refuse {
+  border-color: #FF7070;
+  color: #FF7070;
+}
+.easy-credit .manage-list .mui-control-content .mui-table-view .manage-op-wrap button.btn-agree {
+  border-color: #FF7070;
+  background-color: #FF7070;
+  color: #fff;
+}
